@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.containerBarraTopo{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+.logoLachonete{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.containerTudo{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+}
+
+#containerCardapio{
+    width: 50vw;
+    height: 50vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpw41OkEweSrONT8-YpPNwtlkdf44BWqfhFQ&usqp=CAU);
+
+}
+.colorido{
+    padding-top: 10px;
+    background: rgba(222, 184, 135, 0.452);
+    background: -moz-radial-gradient();
+    
+}
+
+
+#containerPedidoCliente{
+    width: 50vw;
+    height: 50vw;
+    background: rgb(255,0,0);
+    background-image: url(https://img.freepik.com/vetores-premium/padrao-perfeito-de-hamburguer-no-quadro-negro-impressao-repetivel-ilustracao-vetorial-sem-fim_515275-651.jpg);
+}
+
+.enunciado{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.spnEnunciado{
+    color: #fff;
+    border-radius: 35px;
+    padding:10px 25px;
+    background-color: black;
+    font-size: 20px;
+}
+#containerLista{
+    width: 90%;
+    height: 40vw;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.47);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+border: 1px solid rgba(255, 255, 255, 0.49);
+
+    margin-left: 2vw;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos{
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    height: 20px;
+}
+
+.Lanches{
+    font-size: 20px;
+}
+
+.separacaoDosContainer{
+    overflow-y: scroll;
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.containerP1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.containerLanches{
+    width: 30vw;
+}
+.containerCodigo{
+    width: 30vw;
+}
+.containerPreco{
+    width: 30vw;
+}
+.containerAdicionar{
+    width: 30vw;
+}
+
+
+
+.descricaoCardapio{
+    font-size: 20px;    
+    margin-top: 20px;
+}
+
+#descricaoCardapio{
+    font-size: 20px;    
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+/* pedidos cliente */
+
+
+
+#containerPedidoCliente{
+    padding-top: 10px;
+ display: flex;   
+}
+
+#Pedidos{
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    margin-left: 10px;
+
+    font-size: 20px;
+    color: #000;
+
+    text-align: left;
+
+    padding-left: 25px;
+    overflow-y: auto;
+
+}
+
+#total{
+    width: 25%;
+    height: 10%;
+    background-color: white;
+    border: 2px solid #000;
+    margin-left: 25px;
+
+    font-size: 20px;
+    color: #000;
+
+    text-align: left;
+}
+
+#AdiconarAoCardapio{
+    margin-top: px;
+    margin-left: 25px;
+    width: 20vw;
+    height: 50px;
+
+    cursor: pointer;
+
+    margin-top: 30px;
+    border-radius: 30px;
+    
+    -webkit-box-shadow: 21px 17px 20px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 21px 17px 20px -5px rgba(0,0,0,1);
+    box-shadow: 21px 17px 20px -5px rgba(0,0,0,1);
+
+background: rgba(255, 60, 0, 0.753);
+background: linear-gradient(9deg, rgba(255, 60, 0, 0.596) 11%, rgba(255,218,0,0.6587009803921569) 100%);
+
+}
+
+#AdiconarAoCardapio:hover{
+    background-color: #18181b;
+    color: white;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: #18181b;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+@keyframes seiLa {
+    0%   {background-color:red; left:0px; top:0px; }
+    25%  {background-color:yellow; left:0; top:100px;}
+    50%  {background-color:blue; left:; top: 500px;}
+    75%  {background-color:green; left:; top: 100px;}
+    100% {background-color:red; left:; top:0px;}
+  }
+  
+.brincadeira{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+
+  border-radius: 50%;
+
+    position: relative;
+    background-color: red;
+    animation: seiLa 5s infinite;
+  }
+

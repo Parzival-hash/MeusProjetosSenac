@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+
+  <link rel="stylesheet" href="CalculadoraStyle.css">
+  <link rel="stylesheet" href="botoesStyle.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="containerCalculadora">
+
+    <p id="resultado"></p>
+
+
+    <table class="containerBotaoPrincipal">
+        
+        
+        <tr>
+            <td> 
+                <div class="containerBotao Linha1">
+            <button class="botao porcentagem" onclick="adicionarNumero('%')">&#37;</button>
+            <button class="botao CE">CE</button> 
+            <button class="botao cancelar" onclick="clean()">C</button> 
+            <button class="botao apagar" onclick="back()"> 
+                <img src="./assets/calcel.svg" class="svgCancel">
+            </button> 
+        </div>
+    </td>
+</tr>
+
+
+
+<tr>
+    <td> 
+        <div class="containerBotao Linha2">
+            
+            <button class="botao 1/X">
+                <sup>1</sup>/x
+            </button> 
+            
+            <button class="botao aoQuadrado">
+                x<sup>2</sup>
+            </button>
+            
+            <button class="botao raizAoQuadrado">
+                <sup>2</sup> √x
+            </button>
+            
+            <button class="botao divisao" onclick="adicionarNumero('÷')">
+                ÷
+            </button>
+
+        </div>
+    </td>
+</tr>
+
+
+<tr>
+    <td> 
+        
+        <div class="containerBotao Linha3">
+            <button class="botao 9" onclick="adicionarNumero('9')">9</button>
+            <button class="botao 8" onclick="adicionarNumero('8')">8</button>
+            <button class="botao 7" onclick="adicionarNumero('7')">7</button>
+            <button class="botao X" onclick="adicionarNumero('*')">*</button>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td> 
+        <div class="containerBotao Linha4">
+            <button class="botao 6" onclick="adicionarNumero('6')">6</button>
+            <button class="botao 5" onclick="adicionarNumero('5')">5</button>
+            <button class="botao 4" onclick="adicionarNumero('4')">4</button>
+            <button class="botao subtrair" onclick="adicionarNumero('-')">-</button>
+        </div>
+    </td>
+</tr>
+
+
+<tr>
+    <td> 
+        <div class="containerBotao Linha5">
+            <button class="botao 3" onclick="adicionarNumero('3')">3</button>
+            <button class="botao 2" onclick="adicionarNumero('2')">2</button>
+            <button class="botao 1" onclick="adicionarNumero('1')">1</button>
+            <button class="botao somar" onclick="adicionarNumero('+')">+</button>
+        </div>
+    </td>
+</tr>
+
+<tr>
+    <td> 
+        <div class="containerBotao Linha6">
+            <button class="botao +/-">
+                <sup>+</sup>/-
+            </button>
+            <button class="botao 0" onclick="adicionarNumero('0')">0</button>
+            <button class="botao virgula" onclick="adicionarNumero(',')">,</button>
+            <button class="botao igual" onclick="calcular()">=</button>
+        </div>
+    </td>
+</tr>
+
+
+
+</div>
+
+</div>
+</table>
+</body>
+</html>

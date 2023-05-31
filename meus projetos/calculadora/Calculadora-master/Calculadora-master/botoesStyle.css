@@ -1,0 +1,49 @@
+.botao{
+    width: 15vh;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #1d1d1f;
+    color: white;
+}
+:hover.botao{
+    box-shadow: 0px 0px 10px 1px white;
+    border: 1px solid white; 
+    background-color: #000;
+}
+
+.containerBotaoPrincipal{
+    width: 90vh;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+}
+.containerBotao{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.Linha1{
+    /* border: 1px solid blue; */
+}
+.Linha2{
+    /* border: 1px solid red; */
+}
+.Linha3{
+    /* border: 1px solid green; */
+}
+.Linha4{
+    /* border: 1px solid yellow; */
+}
+.Linha5{
+    /* border: 1px solid purple; */
+}
+.Linha6{
+    /* border: 1px solid white; */
+}
+.Linha7 {
+    /* border: 1px solid white; */
+}
